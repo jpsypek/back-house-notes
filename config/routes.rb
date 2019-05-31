@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :groceries
       resources :errands
       resources :users
+      post '/login', to: 'auth#create'
       resources :houses
     end
   end
