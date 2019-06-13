@@ -1,24 +1,27 @@
-# README
+# House Notes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+House Notes is an online resource for all roommates of a home to keep track of any groceries that are needed or errands that need to be done around the house. This application was built with React utilizing a RESTful API built with Ruby on Rails and a Postgres database.
 
-Things you may want to cover:
+## Getting Started
 
-* Ruby version
+1. git clone the backend repository (https://github.com/jpsypek/back-house-notes)
+2. run rails db:create to create the Postgres db
+3. run rails db:seed to seed the db
+4. run rails s to run the backend server
+5. git clone the frontend repository (https://github.com/jpsypek/front-house-notes)
+6. run npm start to frontend server
 
-* System dependencies
+## Video
 
-* Configuration
+[Video demo](https://youtu.be/MxHU4iLcojo)
 
-* Database creation
+## Authors
 
-* Database initialization
+* **Jack Sypek**
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Acknowledgments
 
-* Deployment instructions
+* Hat tip
 
-* ...
+I'd like to thank all of the Flatiron instructors for helping troubleshoot this project at various points, and the Denver[0] cohort for keeping project week fun.
